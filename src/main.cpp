@@ -7,10 +7,10 @@
 int main(int argc, char* argv[])
 {
 	int n_val = argc;
-	int value = std::stoi(argv[1]);
-
+	//int value = std::stoi(argv[1]);
+		
 	algorithms::Solution solver;
-	std::cout<<solver.findReverse(value); 
+	std::cout<<solver.myAtoi(argv[1]); 
 
 	return 0;
 }
