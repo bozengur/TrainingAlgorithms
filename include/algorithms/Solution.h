@@ -15,6 +15,7 @@ namespace algorithms
 	    int myAtoi(std::string s);   //my Atoi function
             bool isMatch(std::string s, std::string p); // match string with some condition
 	    int maxWater(std::vector<int>& height);
+	    std::string intToRoman(int num);
    	   
     };
 
